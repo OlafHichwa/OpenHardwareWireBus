@@ -51,11 +51,11 @@
  */
 
 #include <stdint.h>
-#include "MKL46Z4.h"
+#include "MKL46Z4.h"  //q: how does it specify which file to use? Can i override the default file in C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.14.0\Device\Include with a file I have control over? 
 
 #define DISABLE_WDOG    1
 
-#define CLOCK_SETUP     0
+#define CLOCK_SETUP     1
 /* Predefined clock setups
    0 ... Multipurpose Clock Generator (MCG) in FLL Engaged Internal (FEI) mode
          Reference clock source for MCG module is the slow internal clock source 32.768kHz

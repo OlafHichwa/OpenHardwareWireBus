@@ -1,0 +1,89 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ; todo: file description 
+    2 00000000         
+    3 00000000         
+    4 00000000         ;Assembler directives
+    5 00000000                 THUMB
+    6 00000000                 GBLL             MIXED_ASM_C
+    7 00000000 TRUE     
+                       MIXED_ASM_C
+                               SETL             {TRUE}
+    9 00000000         
+   10 00000000         ; Include files 
+   11 00000000                 GET              MKL46Z4.s
+    1 00000000         
+    2 00000000         
+   13 00000000         
+   14 00000000         ; Program 
+   15 00000000                 AREA             MyCode, CODE, READONLY
+   16 00000000         ; import assembly subroutines here 
+   17 00000000         
+   18 00000000         
+   19 00000000                 ALIGN
+   20 00000000         
+   21 00000000         ; Constants
+   22 00000000                 AREA             MyConstants, DATA, READONLY
+   23 00000000         ; define constants here for use in assembly code
+   24 00000000         
+   25 00000000         ; Variables
+   26 00000000                 AREA             MyVariables, DATA, READWRITE
+   27 00000000         ; define variables here for use in assembly code
+   28 00000000         
+   29 00000000                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0+ --apcs=inter
+work --depend=.\objects\cstart.d -o.\objects\cstart.o -I.\RTE\_Target_1 -IC:\Ke
+il_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include -IC:\Keil_v5\ARM\PACK\Keil\Ki
+netis_KLxx_DFP\1.14.0\Device\Include --predefine="__EVAL SETA 1" --predefine="_
+_UVISION_VERSION SETA 524" --predefine="_RTE_ SETA 1" --predefine="MKL46Z256xxx
+4 SETA 1" --list=.\listings\cstart.lst ..\src\CStart.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MyCode 00000000
+
+Symbol: MyCode
+   Definitions
+      At line 15 in file ..\src\CStart.s
+   Uses
+      None
+Comment: MyCode unused
+1 symbol
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MyConstants 00000000
+
+Symbol: MyConstants
+   Definitions
+      At line 22 in file ..\src\CStart.s
+   Uses
+      None
+Comment: MyConstants unused
+1 symbol
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MyVariables 00000000
+
+Symbol: MyVariables
+   Definitions
+      At line 26 in file ..\src\CStart.s
+   Uses
+      None
+Comment: MyVariables unused
+1 symbol
+338 symbols in table
