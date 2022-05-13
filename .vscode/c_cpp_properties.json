@@ -3,7 +3,10 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:\\Keil_v5\\ARM\\PACK\\Keil\\Kinetis_KLxx_DFP\\1.14.0\\Device\\Include",
+                "C:\\Keil_v5\\ARM\\PACK\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include",
+                "C:\\Keil_v5\\ARM\\ARMCC\\include"
             ],
             "defines": [
                 "_DEBUG",
