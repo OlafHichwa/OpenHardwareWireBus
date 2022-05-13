@@ -21,6 +21,21 @@
                     "C:\\Keil_v5\\ARM\\PACK\\Keil\\Kinetis_KLxx_DFP\\1.14.0\\Device\\Include"
                 ]
             }
+        },
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Applications/Keil/OHWB_Includes/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++98",
+            "intelliSenseMode": "macos-clang-arm64"
         }
     ],
     "version": 4
