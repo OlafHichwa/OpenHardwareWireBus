@@ -10,4 +10,25 @@ BEFORE CONTINUING, please determine whether this task relates to an implementati
 OHWB specification itself, and add the corresponding label (`implementation` or `spec`). 
 -->
 
-<!-- TOOD: Create task template -->
+## Description
+<!-- Provide an overview / describe the purpose of this task. -->
+
+
+
+## Steps
+<!-- Create a rough outline of things that need to be done to complete this task. -->
+
+1. 
+2. 
+3. 
+
+## Acceptance Criteria
+<!-- What criteria need to be met for this task to be considered complete? -->
+
+- [ ] 
+- [ ] 
+
+## References
+<!-- Optionally provide links to any references that are helpful when working on this task. -->
+
+- []()
