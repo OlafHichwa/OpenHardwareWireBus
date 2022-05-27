@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "mkl46z4.h": "c",
-        "core_cm0plus.h": "c",
-        "system_mkl46z4.h": "c",
-        "main.h": "c"
-    }
-}
